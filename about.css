@@ -1,0 +1,28 @@
+*{
+	background-color: black;
+}
+#about p,ul{
+	color: #995c00;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+}
+#about1{
+	color: #cc9900;
+	font-size: 40px;
+}
+#about1 #img1{
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+#about1 #img2{
+	margin-left: 250px;
+	margin-bottom: 50px;
+}
+#about1 #img3{
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+#about1 #img4{
+	margin-left: 250px;
+	margin-bottom: 50px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="bookyourtable.css">
+	<title>Book your table</title>
+</head>
+<body>
+	<section id="location">
+		<form name="bookmytable" method="post">
+			<p>
+				<label for="table">Select table</label>
+				<select id="table" name="city">
+					<option value="">Select city</option>
+					<option value="Vizag">Vizag</option>
+					<option value="Goa">Goa</option>
+					<option value="Mumbai">Mumbai</option>
+				</select>
+			</p>
+			<p>
+				<button onclick="return validateForm()">Book my table</button>
+			</p>
+		</form>
+		<script>
+			function validateForm(){
+				let x=document.forms["bookmytable"]["city"].value;
+				if(x==""){
+					alert("Select your table");
+					return(false);
+				}else{
+					alert("your table is booked, we will send the details through mail");
+				}
+			}
+		</script>
+	</section>
+</body>
+</html>
